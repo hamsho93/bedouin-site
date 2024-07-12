@@ -1,51 +1,43 @@
-import { Icons } from "@/components/icons";
-import { DueCard } from "@/components/examples/due-card";
+"use client"; // Ensures the code runs on the client side
+
+import React from "react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
+import { FaQuestionCircle } from "react-icons/fa";
 
 export const Dues = () => {
+  const defaultContent =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 gap-y-12 py-12">
-      <div className="grid place-items-center sm:pr-8 order-2 xl:order-1">
-        <DueCard />
+    <section className="flex flex-col items-center py-12 bg-black text-white border-4 border-white">
+      <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">
+        FAQs
+      </h2>
+      <div className="w-full max-w-2xl mx-auto">
+        <Accordion className="bg-gray-800 text-white border border-gray-700 rounded-lg">
+          <AccordionItem key="1" aria-label="Accordion 1" title={
+            <div className="flex items-center">
+              <FaQuestionCircle className="mr-2" />
+              Is contract insurance right for my agency?
+            </div>
+          }>
+            As a healthcare staffing agency, it's important to prioritize the needs of your travel nurses and ensure
+             their satisfaction. One way to achieve this is by embedding contract cancellation insurance in your contracts. 
+             By having contract insurance in place, your agency can provide assurance to your travel healthcare workers that they will be 
+             reimbursed for pre paid expenses such as housing, flights and car rentals even if their contract is unexpectedly cancelled. 
+             This can lead to a reduction in travel healthcare workers churn, as healthcare workers are more likely to remain loyal to an agency that values their 
+             well-being and financial security. Ultimately, having contract insurance in place can increase the satisfaction of your travel healthcare workers, 
+             improve the reputation of your agency, and help you attract and retain top talent in the competitive healthcare staffing industry.
+          </AccordionItem>
+        </Accordion>
       </div>
-      <div className="space-y-8 order-1 xl:order-2">
-        <div className="flex flex-col gap-y-4">
-          <h3 className="text-3xl font-[900] tracking-tight">
-            Keep your due dates in check
-          </h3>
-          <p className="text-muted-foreground">
-            Stay organized and never miss a due date! Easily manage your dues,
-            set payment dates, and mark them as &rsquo;Paid&rsquo; once
-            completed.
-          </p>
-        </div>
-        <div className="space-y-8">
-          <div className="flex gap-x-4 relative">
-            <div className="bg-primary rounded-md absolute h-12 w-12 grid place-items-center">
-              <Icons.due className="h-6 w-6" />
-            </div>
-            <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Effortless Due Management</p>
-              <p className="text-muted-foreground">
-                Schedule and monitor your upcoming dues effortlessly. Set due
-                dates, track payments, and stay on top of your financial
-                commitments.
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-x-4 relative">
-            <div className="bg-primary absolute rounded-md h-12 w-12 grid place-items-center">
-              <Icons.dueCheck className="h-6 w-6" />
-            </div>
-            <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Never Miss a Deadline</p>
-              <p className="text-muted-foreground">
-                Our due date tracking ensures you never miss a payment, whether
-                it&rsquo;s your friend&rsquo;s &rsquo;borrowed&rsquo; cash or
-                your monthly bills. Say goodbye to late fees and hello to
-                financial peace of mind!
-              </p>
-            </div>
-          </div>
+      <div className="flex flex-col items-center mt-12">
+        <h3 className="text-2xl font-bold text-center mb-4">
+          Backed by
+        </h3>
+        <div className="flex gap-10 justify-center items-center">
+          <img src="plugandplay.png" alt="PnP Logo" className="h-12 md:h-16 transition-transform duration-300 hover:scale-105" />
+          <img src="berkeley.png" alt="Berkeley Logo" className="h-20 md:h-20 transition-transform duration-300 hover:scale-105" />
         </div>
       </div>
     </section>

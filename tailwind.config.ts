@@ -57,6 +57,10 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Adding custom brown color
+        brown: {
+          DEFAULT: "#b50",
+        },
       },
       keyframes: {
         "accordion-down": {

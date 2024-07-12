@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
 
 export const siteConfig = {
-  name: "Limetta",
+  name: "Bedouin",
   description:
-    "Elevate your financial management with Limetta. Our user-friendly Next.js app simplifies expense tracking, offers multiple account management, easy money transfers, and efficient dues tracking. Take charge of your finances and make informed choices, all in one platform.",
-  url: "https://limetta.in",
+    "Embedded Insurance",
+  url: "https://withbedouin.com",
 };
 
 export const currencies = [
@@ -137,40 +137,4 @@ export const features = [
   "Database with Supabase",
   "ORM with Drizzle",
   "Tailwind CSS for styling",
-];
-
-export const credits = [
-  {
-    name: "Agamjot Kaur Dua",
-    role: "For desiging the logo for Limetta.",
-    social: "https://www.linkedin.com/in/agamjot-kaur-dua-3a694a28b",
-  },
-];
-
-export const team = [
-  {
-    name: "Sukrit Saha",
-    role: "Founding Engineer and Developer",
-    social: "https://www.linkedin.com/in/sukrit-saha-b6117a242",
-  },
-  {
-    name: "Bhargav Sadineni",
-    role: "Marketing Head, Entrepreneur and Tester",
-    social: "https://www.linkedin.com/in/bhargav-sadieni-830892204",
-  },
-];
-
-export const contact = [
-  {
-    id: 1,
-    label: "Email",
-    linkLabel: "sukritsaha27@gmail.com",
-    href: "mailto:sukritsaha27@gmail.com",
-  },
-  {
-    id: 2,
-    label: "Twitter",
-    linkLabel: "@SukritSaha11",
-    href: "https://twitter.com/SukritSaha11",
-  },
 ];

@@ -1,50 +1,60 @@
 import { Icons } from "@/components/icons";
 import { Onboarding } from "@/components/examples/onboading";
+import Spline from '@splinetool/react-spline/next';
 
 export const ExpenseTracker = () => {
   return (
-    <section className="grid grid-cols-1 gap-y-12 xl:grid-cols-2 py-12">
-      <div className="space-y-8">
+    <section className="flex flex-col xl:flex-row items-center justify-between gap-y-12 xl:gap-y-0 py-12">
+      <div className="space-y-8 max-w-lg xl:w-1/2">
         <div className="flex flex-col gap-y-4">
           <h3 className="text-3xl font-[900] tracking-tight">
-            Track your expenses and see where your money is going
+            Digital insurance solutions that protect you!
           </h3>
           <p className="text-muted-foreground">
-            We seamlessly allocate your monthly income based on your
-            preferences, providing a clear overview of your spending every
-            month. Experience the difference right from the start.
+            Bedouin brings innovative insurance solutions to the market to combat financial losses due to cancellations 
+            and loss events. 
           </p>
         </div>
         <div className="space-y-8">
           <div className="flex flex-row gap-x-4 relative">
-            <div className="bg-primary rounded-md absolute h-12 w-12 grid place-items-center">
-              <Icons.customize className="h-6 w-6" />
+            <div className="bg-brown rounded-md absolute h-12 w-12 grid place-items-center">
+              <img src="cpu.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
             </div>
             <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Tailored to Your Needs</p>
+              <p className="text-lg">Embedded to meet your needs</p>
               <p className="text-muted-foreground">
-                Set and update your income whenever needed. No rigid rules, just
-                tailored solutions for your dynamic financial life.
+                Seamless insurance onboarding and protection. Give your business the differentiating edge by providing your users 
+                with the best financial protection!
               </p>
             </div>
           </div>
           <div className="flex flex-row gap-x-4 relative">
-            <div className="bg-primary absolute rounded-md h-12 w-12 grid place-items-center">
-              <Icons.overview className="h-6 w-6" />
+            <div className="bg-brown absolute rounded-md h-12 w-12 grid place-items-center">
+              <img src="happyemoji.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
             </div>
             <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Transparent Financial Insights</p>
+              <p className="text-lg">Fantastic Service</p>
               <p className="text-muted-foreground">
-                Download your monthly expenses with pre-calculated data. Dive
-                into the past year&rsquo;s expenses or focus on a specific
-                month. Visualize it all with clean, informative graphs.
+                Dedicated team committed to providing you with a truly fantastic and personalized experience from start to finish.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-row gap-x-4 relative">
+            <div className="bg-brown absolute rounded-md h-12 w-12 grid place-items-center">
+              <img src="add-square.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
+            </div>
+            <div className="flex flex-col gap-y-2 pl-16">
+              <p className="text-lg">Ancillary Benefits</p>
+              <p className="text-muted-foreground">
+                Unlock access to a catalog of insurance products from our carrier partners!
               </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-end sm:px-8">
-        <Onboarding />
+      
+      <div className="flex justify-center items-center w-full xl:w-1/2">
+        <img src="bedouin-network.png" alt="Descriptive Alt Text" className="w-full h-auto" />
       </div>
     </section>
   );

@@ -1,52 +1,34 @@
-import { Icons } from "@/components/icons";
-import { Accounts } from "@/components/examples/accounts";
-
 export const MaintainingAccounts = () => {
   return (
-    <section className="grid grid-cols-1 gap-y-12 xl:grid-cols-2 py-12">
-      <div className="flex items-center sm:pr-8 order-2 xl:order-1">
-        <Accounts />
-      </div>
-      <div className="space-y-8 order-1 xl:order-2">
-        <div className="flex flex-col gap-y-4">
-          <h3 className="text-3xl font-[900] tracking-tight">
-            Maintain multiple accounts and track your transactions
+    <section className="flex flex-col items-center py-12">
+      <h2 className="text-4xl font-bold text-center mb-8 animate-fade-in">
+        New products coming soon to the traveling healthcare industry!
+      </h2>
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-12 animate-fade-in-up">
+        {/* Before contract start date */}
+        <div className="space-y-4 p-6 border rounded-lg shadow-md transform transition-transform hover:scale-105 hover:shadow-lg">
+          <div className="flex items-center justify-center bg-brown text-white px-6 py-2 rounded-full">
+            Before contract start date
+          </div>
+          <h3 className="text-2xl font-semibold text-brown">
+            Protect your health, wealth and sanity before your first day.
           </h3>
           <p className="text-muted-foreground">
-            Effortlessly manage multiple accounts and transactions with our
-            user-friendly platform. Track expenses, investments, and savings
-            seamlessly.
+            As traveling healthcare workers navigate the unpredictable landscapes of the profession, Bedouin emerges as their unwavering support, emphasizing the need to safeguard health, wealth, and sanity from day one. With a tailored approach, it provides comprehensive healthcare coverage, financial security, and a reassuring buffer against the challenges of their nomadic careers. In choosing Bedouin, you can embark on your healthcare journey with confidence, knowing that your well-being is prioritized at every step.
           </p>
         </div>
-        <div className="space-y-8">
-          <div className="flex gap-x-4 relative">
-            <div className="bg-primary rounded-md absolute h-12 w-12 grid place-items-center">
-              <Icons.wallet className="h-6 w-6" />
-            </div>
-            <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Diverse Account Management</p>
-              <p className="text-muted-foreground">
-                Seamlessly manage various accounts, including miscellaneous,
-                investment, and savings accounts, tailored to your financial
-                goals. Stay organized by tracking transactions in each account,
-                providing a clear overview of your financial landscape.
-              </p>
-            </div>
+
+        {/* After contract start date */}
+        <div className="space-y-4 p-6 border rounded-lg shadow-md transform transition-transform hover:scale-105 hover:shadow-lg">
+          <div className="flex items-center justify-center bg-brown text-white px-6 py-2 rounded-full">
+            After contract start date
           </div>
-          <div className="flex gap-x-4 relative">
-            <div className="bg-primary absolute rounded-md h-12 w-12 grid place-items-center">
-              <Icons.coins className="h-6 w-6" />
-            </div>
-            <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Effortless Transaction Tracking</p>
-              <p className="text-muted-foreground">
-                Easily record and monitor transactions across your different
-                accounts. Whether you&rsquo;re logging expenses, investments, or
-                savings, our user-friendly interface ensures you stay in control
-                of your finances with simplicity and precision.
-              </p>
-            </div>
-          </div>
+          <h3 className="text-2xl font-semibold text-brown">
+            Coverage after you start so you can focus more on your patients and career.
+          </h3>
+          <p className="text-muted-foreground">
+            We're committed to empowering traveling healthcare professionals like you to prioritize what truly matters – your patients and your career. We understand that your dedication deserves unwavering support, which is why our insurance solutions go beyond the initial phase, ensuring that your health, financial stability, and peace of mind remain protected throughout your journey. Let us handle the uncertainties so you can immerse yourself fully in your vital role without distractions or worries.
+          </p>
         </div>
       </div>
     </section>
