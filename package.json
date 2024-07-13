@@ -2,6 +2,7 @@
   "name": "bedouin-site",
   "version": "1.0.0",
   "scripts": {
+    "prebuild": "node scripts/check-dependencies.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
