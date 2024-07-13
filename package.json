@@ -26,7 +26,7 @@
     "@nextui-org/button": "^2.0.34",
     "@nextui-org/radio": "^2.1.1",
     "@nextui-org/select": "^2.1.1",
-    "@nextui-org/card": "^2.1.1",
+    "@nextui-org/card": "^2.0.31",
     "@nextui-org/popover": "^2.1.1",
     "lucide-react": "^0.218.0"
   },
