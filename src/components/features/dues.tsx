@@ -21,7 +21,7 @@ export const Dues = () => {
               Is contract insurance right for my agency?
             </div>
           }>
-            As a healthcare staffing agency, it&aposs important to prioritize the needs of your travel nurses and ensure
+            As a healthcare staffing agency, it&rsquo;s important to prioritize the needs of your travel nurses and ensure
              their satisfaction. One way to achieve this is by embedding contract cancellation insurance in your contracts. 
              By having contract insurance in place, your agency can provide assurance to your travel healthcare workers that they will be 
              reimbursed for pre paid expenses such as housing, flights and car rentals even if their contract is unexpectedly cancelled. 
