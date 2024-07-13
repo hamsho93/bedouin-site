@@ -27,7 +27,7 @@ export const MaintainingAccounts = () => {
             Coverage after you start so you can focus more on your patients and career.
           </h3>
           <p className="text-muted-foreground">
-            We&aposre committed to empowering traveling healthcare professionals like you to prioritize what truly matters – your patients and your career. We understand that your dedication deserves unwavering support, which is why our insurance solutions go beyond the initial phase, ensuring that your health, financial stability, and peace of mind remain protected throughout your journey. Let us handle the uncertainties so you can immerse yourself fully in your vital role without distractions or worries.
+            We&rsquo;re committed to empowering traveling healthcare professionals like you to prioritize what truly matters – your patients and your career. We understand that your dedication deserves unwavering support, which is why our insurance solutions go beyond the initial phase, ensuring that your health, financial stability, and peace of mind remain protected throughout your journey. Let us handle the uncertainties so you can immerse yourself fully in your vital role without distractions or worries.
           </p>
         </div>
       </div>
