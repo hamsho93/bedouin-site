@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.md
+*.lock
+.DS_Store
+.git/
+.gitignore
+.next/
+out/
+build/
+coverage/
