@@ -18,7 +18,12 @@
     "axios": "^1.5.0",
     "date-fns": "^2.30.0",
     "react-wrap-balancer": "^1.1.0",
-    "@nextui-org/divider": "^2.0.28"
+    "@nextui-org/divider": "^2.0.28",
+    "@mantine/hooks": "^3.3.0",
+    "@tanstack/react-query": "^4.35.0",
+    "@nextui-org/scroll-shadow": "^1.1.0",
+    "@nextui-org/input": "^1.1.0",
+    "@nextui-org/button": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
