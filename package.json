@@ -19,11 +19,11 @@
     "date-fns": "^2.30.0",
     "react-wrap-balancer": "^1.1.0",
     "@nextui-org/divider": "^2.0.28",
-    "@mantine/hooks": "^3.3.0",
-    "@tanstack/react-query": "^4.35.0",
-    "@nextui-org/scroll-shadow": "^1.1.0",
-    "@nextui-org/input": "^1.1.0",
-    "@nextui-org/button": "^1.1.0"
+    "@mantine/hooks": "^7.11.1",
+    "@tanstack/react-query": "^5.51.1",
+    "@nextui-org/scroll-shadow": "^2.1.17",
+    "@nextui-org/input": "^2.2.2",
+    "@nextui-org/button": "^2.0.34"
   },
   "devDependencies": {
     "@types/node": "^20.5.9",
