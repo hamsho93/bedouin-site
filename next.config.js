@@ -1,5 +1,5 @@
 const { z } = require("zod");
-const dotenv = require("dotenv");
+const dotenv = require('dotenv');
 dotenv.config();
 
 const envSchema = z.object({
@@ -34,4 +34,20 @@ const withPWA = require('next-pwa')({
 module.exports = withPWA({
   reactStrictMode: true,
   // Your existing Next.js configuration
+  env: {
+    DATABASE_URL: process.env.DATABASE_URL,
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
+    GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
+    GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
+    NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL,
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+  },
+
 });
+
+console.log('DATABASE_URL:', process.env.DATABASE_URL);
+console.log('NEXTAUTH_SECRET:', process.env.NEXTAUTH_SECRET);
+console.log('GOOGLE_CLIENT_ID:', process.env.GOOGLE_CLIENT_ID);
+console.log('GOOGLE_CLIENT_SECRET:', process.env.GOOGLE_CLIENT_SECRET);
+console.log('NEXT_PUBLIC_SITE_URL:', process.env.NEXT_PUBLIC_SITE_URL);
+console.log('NEXTAUTH_URL:', process.env.NEXTAUTH_URL);
