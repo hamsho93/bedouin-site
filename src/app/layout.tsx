@@ -54,7 +54,7 @@ export const metadata: Metadata = {
       url: "",
     },
   ],
-  creator: "Sukrittt",
+  creator: "Bedouin",
   openGraph: {
     type: "website",
     locale: "",
@@ -62,6 +62,9 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
+  },
+  icons: {
+    icon: "/bedouin_logo.ico", // Add this line to specify the favicon path
   },
 };
 
