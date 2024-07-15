@@ -1,4 +1,3 @@
-// src/app/site/page.tsx
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
 import { Balancer } from "react-wrap-balancer";
@@ -10,10 +9,28 @@ import { buttonVariants } from "@/components/ui/button";
 import { ExpenseTracker } from "@/components/features/expense-tracker";
 import { MaintainingAccounts } from "@/components/features/maintaining-accounts";
 import Spline from '@splinetool/react-spline/next';
-import { checkEnv } from "@/lib/checkEnv"; // Import the check function
+
+// Logging environment variables to check if they are available at runtime
+console.log("DATABASE_URL:", process.env.DATABASE_URL);
+console.log("NEXTAUTH_SECRET:", process.env.NEXTAUTH_SECRET);
+console.log("GOOGLE_CLIENT_ID:", process.env.GOOGLE_CLIENT_ID);
+console.log("GOOGLE_CLIENT_SECRET:", process.env.GOOGLE_CLIENT_SECRET);
+console.log("NEXT_PUBLIC_SITE_URL:", process.env.NEXT_PUBLIC_SITE_URL);
+console.log("NEXTAUTH_URL:", process.env.NEXTAUTH_URL);
 
 export default function Home() {
-  checkEnv(); // Call the check function
+  if (!process.env.DATABASE_URL || !process.env.NEXTAUTH_SECRET || !process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET || !process.env.NEXT_PUBLIC_SITE_URL || !process.env.NEXTAUTH_URL) {
+    return (
+      <Shell>
+        <section className="relative w-full h-full flex flex-col items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold">Environment Variables Missing</h1>
+            <p>Please ensure all required environment variables are set.</p>
+          </div>
+        </section>
+      </Shell>
+    );
+  }
 
   return (
     <Shell>
