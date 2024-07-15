@@ -1,21 +1,21 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-bedouinsite-dev-5f90f-authRole",
-      "UnauthRoleArn": "arn:aws:iam::821405726613:role/amplify-bedouinsite-dev-5f90f-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::821405726613:role/amplify-bedouinsite-dev-5f90f-authRole",
+      "AuthRoleName": "amplify-bedouinsite-dev-3169a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::821405726613:role/amplify-bedouinsite-dev-3169a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::821405726613:role/amplify-bedouinsite-dev-3169a-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-bedouinsite-dev-5f90f-deployment",
-      "UnauthRoleName": "amplify-bedouinsite-dev-5f90f-unauthRole",
-      "StackName": "amplify-bedouinsite-dev-5f90f",
-      "StackId": "arn:aws:cloudformation:us-east-1:821405726613:stack/amplify-bedouinsite-dev-5f90f/374498e0-4264-11ef-95cb-123b6c7d9505",
-      "AmplifyAppId": "d1iyygur8zqp3p"
+      "DeploymentBucketName": "amplify-bedouinsite-dev-3169a-deployment",
+      "UnauthRoleName": "amplify-bedouinsite-dev-3169a-unauthRole",
+      "StackName": "amplify-bedouinsite-dev-3169a",
+      "StackId": "arn:aws:cloudformation:us-east-1:821405726613:stack/amplify-bedouinsite-dev-3169a/150c3f00-426c-11ef-bf54-12dbebdaad27",
+      "AmplifyAppId": "d2hltb48bxjh1w"
     },
     "categories": {
       "hosting": {
         "amplifyhosting": {
-          "appId": "d1iyygur8zqp3p",
-          "type": "manual"
+          "appId": "d2hltb48bxjh1w",
+          "type": "cicd"
         }
       }
     }
