@@ -1,7 +1,7 @@
+// src/app/site/page.tsx
 import Link from "next/link";
 import { Button } from "@nextui-org/button";
 import { Balancer } from "react-wrap-balancer";
-
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/config";
 import { Shell } from "@/components/shell";
@@ -10,8 +10,11 @@ import { buttonVariants } from "@/components/ui/button";
 import { ExpenseTracker } from "@/components/features/expense-tracker";
 import { MaintainingAccounts } from "@/components/features/maintaining-accounts";
 import Spline from '@splinetool/react-spline/next';
+import { checkEnv } from "@/lib/checkEnv"; // Import the check function
 
 export default function Home() {
+  checkEnv(); // Call the check function
+
   return (
     <Shell>
       <section className="relative w-full h-full flex flex-col items-center justify-center">
