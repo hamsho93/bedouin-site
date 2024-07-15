@@ -7,7 +7,6 @@ import { siteConfig } from "@/config";
 import { Shell } from "@/components/shell";
 import { Dues } from "@/components/features/dues";
 import { buttonVariants } from "@/components/ui/button";
-import { TransferMoney } from "@/components/features/transfer-money";
 import { ExpenseTracker } from "@/components/features/expense-tracker";
 import { MaintainingAccounts } from "@/components/features/maintaining-accounts";
 import Spline from '@splinetool/react-spline/next';
@@ -46,7 +45,6 @@ export default function Home() {
       </div>
       <ExpenseTracker />
       <MaintainingAccounts />
-      {/* <TransferMoney /> */}
       <Dues />
     </Shell>
   );

@@ -82,11 +82,6 @@ export const settings = [
     hardReload: true,
   },
   {
-    label: "Overview",
-    href: "/overview",
-    Icon: Icons.overview,
-  },
-  {
     label: "About",
     href: "/about",
     Icon: Icons.info,

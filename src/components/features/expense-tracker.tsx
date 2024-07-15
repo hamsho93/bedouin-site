@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { Onboarding } from "@/components/examples/onboading";
 import Spline from '@splinetool/react-spline/next';
 
 export const ExpenseTracker = () => {
