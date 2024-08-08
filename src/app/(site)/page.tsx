@@ -25,11 +25,12 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 mx-auto flex w-full max-w-[64rem] flex-col items-center justify-center gap-4 pb-8 text-center pt-10 sm:pt-20 lg:pb-10">
           <Balancer className="font-bold leading-tight tracking-tight text-5xl sm:text-7xl lg:text-8xl lg:leading-[1.1]">
-            Embedded <span className="font-mono text-brown">Insurance</span>{" "}
-            For Cancellation and Loss Events
+            Autonomous<span className="font-mono text-purple">
+            Fraud Agents</span>{" "}
+            To Supercharge Your Operations
           </Balancer>
           <Button
-            className={cn(buttonVariants(), "rounded-full text-lg lg:h-15 bg-brown text-white")}
+            className={cn(buttonVariants(), "rounded-full text-lg lg:h-15 bg-purple text-white")}
             as={Link}
             href="https://share.hsforms.com/1Ma6zKIU5SXmeaIi31qynIgq5drz"
           >
@@ -39,16 +40,16 @@ export default function Home() {
       </section>
       <div className="flex flex-col items-center justify-center py-12 gap-y-4">
         <h3 className="text-4xl text-center font-extrabold tracking-tighter">
-          Peace of mind and security through innovative insurance products.
+        Lloyd automates all the manual, time-consuming tasks of manual fraud reviews, speeding application decisions.
         </h3>
         <Balancer className="text-muted-foreground text-center text-lg">
-          Bedouin integrates with HR Systems, Staffing Agencies, and other Employers to provide both businesses and 
-          employees financial protection. 
+        Our AI Fraud Agents perform like human professionals, handling reading, writing, and reasoning tasks without the risk of errors. They take on routine onboarding and underwriting duties, coordinate system outputs, summarize key findings, and recommend next steps. 
+        Operating around the clock, they offer unmatched scalability, seamlessly integrating with your team and resources.
         </Balancer>
       </div>
       <ExpenseTracker />
-      <MaintainingAccounts />
-      <Dues />
+      {/* <MaintainingAccounts /> */}
+      {/* <Dues /> */}
     </Shell>
   );
 }

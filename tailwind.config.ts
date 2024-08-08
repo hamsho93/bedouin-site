@@ -58,8 +58,8 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         // Adding custom brown color
-        brown: {
-          DEFAULT: "#b50",
+        purple: {
+          DEFAULT: "#C7A5FF",
         },
       },
       keyframes: {

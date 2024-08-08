@@ -7,53 +7,51 @@ export const ExpenseTracker = () => {
       <div className="space-y-8 max-w-lg xl:w-1/2">
         <div className="flex flex-col gap-y-4">
           <h3 className="text-3xl font-[900] tracking-tight">
-            Digital insurance solutions that protect you!
+            Fraud Reviews Automated 
           </h3>
           <p className="text-muted-foreground">
-            Bedouin brings innovative insurance solutions to the market to combat financial losses due to cancellations 
-            and loss events. 
+          Lloyd AI is the industry-leading Autonomous Fraud Agent that handles all manual applicant reviews at application stage for lenders. 
           </p>
         </div>
         <div className="space-y-8">
           <div className="flex flex-row gap-x-4 relative">
-            <div className="bg-brown rounded-md absolute h-12 w-12 grid place-items-center">
+            <div className="bg-purple rounded-md absolute h-12 w-12 grid place-items-center">
               <img src="cpu.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
             </div>
             <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Embedded to meet your needs</p>
+              <p className="text-lg">Do more with less headcount</p>
               <p className="text-muted-foreground">
-                Seamless insurance onboarding and protection. Give your business the differentiating edge by providing your users 
-                with the best financial protection!
-              </p>
+              Risk and operations teams are under immense pressure with shrinking budgets, hiring freezes, and scarce engineering resources. 
+              Our AI Risk Agents enhance team efficiency without the need for additional budget or staff, allowing you to scale quickly as your needs change.              </p>
             </div>
           </div>
           <div className="flex flex-row gap-x-4 relative">
-            <div className="bg-brown absolute rounded-md h-12 w-12 grid place-items-center">
+            <div className="bg-purple absolute rounded-md h-12 w-12 grid place-items-center">
               <img src="happyemoji.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
             </div>
             <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Fantastic Service</p>
+              <p className="text-lg">Eliminate tedious review tasks</p>
               <p className="text-muted-foreground">
-                Dedicated team committed to providing you with a truly fantastic and personalized experience from start to finish.
-              </p>
+              In todays competitive market, speed is crucial. Our Fraud AI Agents streamline information across all your systems, 
+              allowing your team to focus on strategic customer approvals rather than mundane tasks, accelerating your response times and boosting efficiency.              </p>
             </div>
           </div>
           <div className="flex flex-row gap-x-4 relative">
-            <div className="bg-brown absolute rounded-md h-12 w-12 grid place-items-center">
+            <div className="bg-purple absolute rounded-md h-12 w-12 grid place-items-center">
               <img src="add-square.png" alt="Descriptive Alt Text" className="w-8 h-auto" />
             </div>
             <div className="flex flex-col gap-y-2 pl-16">
-              <p className="text-lg">Ancillary Benefits</p>
+              <p className="text-lg">Reduce avoidable fraud losses</p>
               <p className="text-muted-foreground">
-                Unlock access to a catalog of insurance products from our carrier partners!
-              </p>
+              In a landscape of shrinking margins and economic uncertainty, fraud and credit losses are unsustainable. Our advanced AI and 
+              machine learning technology detect fraud and credit risks that human reviewers might miss, safeguarding your business against these hidden threats.              </p>
             </div>
           </div>
         </div>
       </div>
       
       <div className="flex justify-center items-center w-full xl:w-1/2">
-        <img src="bedouin-network.png" alt="Descriptive Alt Text" className="w-full h-auto" />
+        <img src="lloyd_network.png" alt="Descriptive Alt Text" className="w-full h-auto" />
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ export const Navbar = async () => {
     <div className="sticky top-0 z-40 w-full bg-background flex justify-between items-center py-5 px-8 lg:px-24">
       <div className="relative z-20 flex items-center">
         <Link href="/">
-          <Image src="/bedouin_logo_full.png" alt="Site Logo" width={190} height={64} className="h-6 md:h-8" />
+          <Image src="/lloyd_logo.png" alt="Site Logo" width={160} height={500} className="h-6 md:h-12" />
         </Link>
       </div>
       <div className="flex gap-x-4 items-center">
@@ -27,7 +27,7 @@ export const Navbar = async () => {
           />
         ) : (
           <Button
-            className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-brown text-white")}
+            className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-purple text-white")}
             as={Link}
             href="https://share.hsforms.com/1Ma6zKIU5SXmeaIi31qynIgq5drz"
           >
