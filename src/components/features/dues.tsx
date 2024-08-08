@@ -13,21 +13,29 @@ export const Dues = () => {
       <h2 className="text-4xl font-bold text-center mb-4 animate-fade-in">
         FAQs
       </h2>
+      <div className="w-full max-w-2xl mx-auto mb-4"> {/* Add margin-bottom here */}
+        <Accordion className="bg-gray-800 text-white border border-gray-700 rounded-lg">
+          <AccordionItem key="1" aria-label="Accordion 1" title={
+            <div className="flex items-center">
+              <FaQuestionCircle className="mr-2" />
+              What industries can benefit from AI Fraud Agents?
+            </div>
+          }>
+            Industries such as banking, lending, property management, e-commerce, and fintech can benefit from 
+            Lloyd AI Fraud Agents for their ability to detect and manage risks related to fraud, compliance, and other operational concerns.
+          </AccordionItem>
+        </Accordion>
+      </div>
       <div className="w-full max-w-2xl mx-auto">
         <Accordion className="bg-gray-800 text-white border border-gray-700 rounded-lg">
           <AccordionItem key="1" aria-label="Accordion 1" title={
             <div className="flex items-center">
               <FaQuestionCircle className="mr-2" />
-              Is contract insurance right for my agency?
+              What support does Lloyd AI offer for businesses using AI Fraud Agents?
             </div>
           }>
-            As a healthcare staffing agency, it&rsquo;s important to prioritize the needs of your travel nurses and ensure
-             their satisfaction. One way to achieve this is by embedding contract cancellation insurance in your contracts. 
-             By having contract insurance in place, your agency can provide assurance to your travel healthcare workers that they will be 
-             reimbursed for pre paid expenses such as housing, flights and car rentals even if their contract is unexpectedly cancelled. 
-             This can lead to a reduction in travel healthcare workers churn, as healthcare workers are more likely to remain loyal to an agency that values their 
-             well-being and financial security. Ultimately, having contract insurance in place can increase the satisfaction of your travel healthcare workers, 
-             improve the reputation of your agency, and help you attract and retain top talent in the competitive healthcare staffing industry.
+            Lloyd AI offers support through customer service, training, and
+            consultation to help businesses integrate AI Fraud Agents effectively and achieve the best results in risk assessment and management.
           </AccordionItem>
         </Accordion>
       </div>

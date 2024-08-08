@@ -49,7 +49,7 @@ export default function Home() {
       </div>
       <ExpenseTracker />
       {/* <MaintainingAccounts /> */}
-      {/* <Dues /> */}
+      <Dues />
     </Shell>
   );
 }
