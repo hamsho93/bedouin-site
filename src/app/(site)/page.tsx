@@ -26,7 +26,7 @@ export default function Home() {
         <div className="relative z-10 mx-auto flex w-full max-w-[64rem] flex-col items-center justify-center gap-4 pb-8 text-center pt-10 sm:pt-20 lg:pb-10">
           <Balancer className="font-bold leading-tight tracking-tight text-5xl sm:text-7xl lg:text-8xl lg:leading-[1.1]">
             Autonomous<span className="font-mono text-purple">
-            Fraud Agents</span>{" "}
+             Fraud Agents</span>{" "}
             To Supercharge Your Operations
           </Balancer>
           <Button
