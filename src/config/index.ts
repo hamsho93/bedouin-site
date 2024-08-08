@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
 
 export const siteConfig = {
-  name: "Bedouin",
+  name: "Lloyd AI",
   description:
-    "Embedded Insurance",
-  url: "https://withbedouin.com",
+    "Autonomous Fraud Agents",
+  url: "https://asklloyd.ai",
 };
 
 export const currencies = [

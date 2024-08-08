@@ -48,8 +48,8 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
   },
   icons: {
-    icon: "/bedouin_logo.ico", // Add this line to specify the favicon path
-    shortcut: "/bedouin_logo.ico", // Add this line for the shortcut icon
+    icon: "/lloyd_eye.ico", // Add this line to specify the favicon path
+    shortcut: "/lloyd_eye.ico", // Add this line for the shortcut icon
     apple: "/apple-touch-icon.png", // Add this line for the Apple touch icon
   },
 };
