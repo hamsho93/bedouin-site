@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <Shell>
       {/* Add the Client Component */}
-      <ClientComponent />
+      {/* <ClientComponent /> */}
       <section className="relative w-full h-full flex flex-col items-center justify-center">
         {/* Spline Background */}
         <div className="absolute inset-0 z-0">
