@@ -131,7 +131,7 @@ export const Dues = () => {
             {/* Feature 1 */}
             <div className="bg-white/5 border border-[#289c8e]/20 backdrop-blur-lg rounded-xl p-8 shadow-lg">
               <div className="text-[#289c8e] mb-6">
-                <Icons.pill className="w-8 h-8" />
+                <Icons.pill2 className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
                 Automated Prescription Processing
