@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const siteConfig = {
   name: "PillHub AI",
   description: "AI-powered pharmacy management platform revolutionizing healthcare operations with intelligent automation and enhanced patient care.",
-  url: "https://pillhub.ai",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://pillhub.ai",
   ogImage: "/pharmacy_875x875.png",
   links: {
     twitter: "https://twitter.com/pillhub_ai",

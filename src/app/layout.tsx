@@ -56,14 +56,12 @@ export const metadata: Metadata = {
     title: "PillHub AI - Intelligent Pharmacy Management",
     description: "Transform your pharmacy operations with AI-powered automation, smart prescription processing, and enhanced patient care management.",
     siteName: siteConfig.name,
-    images: [
-      {
-        url: "/pharmacy_875x875.png",
-        width: 875,
-        height: 875,
-        alt: "PillHub AI Logo"
-      }
-    ]
+    images: [{
+      url: "/pharmacy_875x875.png",
+      width: 875,
+      height: 875,
+      alt: "PillHub AI Logo"
+    }]
   },
   icons: {
     icon: "/pharmacy_logo.ico", // Add this line to specify the favicon path
@@ -76,6 +74,10 @@ export const metadata: Metadata = {
     description: "Transform your pharmacy operations with AI-powered automation and smart prescription processing.",
     images: ["/pharmacy_875x875.png"],
     creator: "@pillhub_ai"
+  },
+  other: {
+    "og:image": "/pharmacy_875x875.png",
+    "twitter:image": "/pharmacy_875x875.png"
   }
 };
 
@@ -86,6 +88,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google" content="notranslate" />
+      </head>
       <body className={cn("bg-background antialiased", font.className)}>
         <Providers>
           <ThemeWrapper>
