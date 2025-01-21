@@ -11,7 +11,7 @@ export const ExpenseTracker = () => {
             Our Solutions
           </h3>
           <p className="text-[#333333]">
-            Explore PillHub's solutions to optimize your pharmacy. 
+            Explore PillHub&apos;s solutions to optimize your pharmacy. 
           </p>
         </div>
         <div className="space-y-8">
