@@ -23,7 +23,7 @@ interface ExpertiseItem {
 export const TeamSection: React.FC = () => {
   const expertise: ExpertiseItem[] = [
     {
-      icon: "pill",
+      icon: "pill2",
       title: "AI Experts",
       description: "Our AI specialists bring decades of experience in machine learning and healthcare automation.",
       animation: {
