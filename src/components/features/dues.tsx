@@ -121,11 +121,6 @@ export const Dues = () => {
             Redefine the future of healthcare.
           </h2>
           
-          {/* Subtitle */}
-          <p className="text-lg text-[#333333] mb-20 max-w-3xl mx-auto">
-            PillHub analyzes every prescription and patient interaction to optimize operations, improve patient care, and streamline your workflow.
-          </p>
-
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             {/* Feature 1 */}
@@ -154,16 +149,16 @@ export const Dues = () => {
               </p>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 3 - Updated */}
             <div className="bg-white/5 border border-[#289c8e]/20 backdrop-blur-lg rounded-xl p-8 shadow-lg">
               <div className="text-[#289c8e] mb-6">
-                <Icons.analytics className="w-8 h-8" />
+                <Icons.car className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
-                Inventory Management
+                24/7 Fulfillment
               </h3>
               <p className="text-[#333333]">
-                Smart inventory tracking with predictive analytics ensures you always have essential medications in stock.
+                Operate with 24/7 capabilities without being in store 24/7. Provide customers flexible delivery options.
               </p>
             </div>
 

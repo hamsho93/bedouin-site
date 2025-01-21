@@ -41,6 +41,7 @@ import {
   Pill,
   Stethoscope,
   ShieldCheck,
+  Car,
 } from "lucide-react";
 
 export const Icons = {
@@ -320,6 +321,7 @@ export const Icons = {
   store: Store,
   user: User,
   brain: Brain,
+  car: Car,
 };
 
 type ExtendedSiteLogoProps = LucideProps & {
