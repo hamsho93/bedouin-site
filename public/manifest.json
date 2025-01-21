@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Limetta",
-    "short_name": "Limetta",
-    "description": "Elevate your financial management with Limetta.",
+    "name": "PillHub AI",
+    "short_name": "PillHub AI",
+    "description": "Pharmaceutical AI for pharmacies.",
     "icons": [
         {
             "src": "/icon-192x192.png",
