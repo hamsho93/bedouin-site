@@ -112,7 +112,7 @@ export const TeamSection: React.FC = () => {
                 className="text-[#289c8e] mb-6 relative"
               >
                 <div className="absolute inset-0 bg-[#289c8e]/20 blur-xl rounded-full" />
-                <Icons.pill className="w-12 h-12 relative z-10" />
+                <Icons.pill2 className="w-12 h-12 relative z-10" />
               </motion.div>
 
               <h3 className="text-2xl font-semibold mb-3 text-[#333333]">
