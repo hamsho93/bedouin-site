@@ -11,10 +11,10 @@ export const Navbar = async () => {
   const session = await getAuthSession();
 
   return (
-    <div className="sticky top-0 z-40 w-full bg-background flex justify-between items-center py-5 px-8 lg:px-24">
+    <div className="sticky top-0 z-40 w-full bg-[#EEEEEE] flex justify-between items-center py-5 px-8 lg:px-24">
       <div className="relative z-20 flex items-center">
         <Link href="/">
-          <Image src="/bedouin_logo_full.png" alt="Site Logo" width={190} height={64} className="h-6 md:h-8" />
+          <Image src="/pharmacy_875x875.png" alt="Site Logo" width={100} height={350} className="h-18 md:h-24" />
         </Link>
       </div>
       <div className="flex gap-x-4 items-center">
@@ -27,7 +27,7 @@ export const Navbar = async () => {
           />
         ) : (
           <Button
-            className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-brown text-white")}
+            className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-[#117c6f] text-white hover:bg-[#333333]")}
             as={Link}
             href="https://share.hsforms.com/1Ma6zKIU5SXmeaIi31qynIgq5drz"
           >

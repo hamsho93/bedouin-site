@@ -558,11 +558,11 @@ export const themes = [
     },
     cssVars: {
       dark: {
-        background: "0, 0%, 7%",
+        background: "0, 0%, 96%",
         foreground: "0, 1%, 37%",
-        card: "0, 0%, 10%",
+        card: "0, 0%, 98%",
         "card-foreground": "0, 1%, 37%",
-        popover: "0, 0%, 10%",
+        popover: "0, 0%, 98%",
         "popover-foreground": "0, 1%, 37%",
         primary: "0, 0%, 93%",
         "primary-foreground": "0, 1%, 37%",

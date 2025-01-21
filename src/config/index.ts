@@ -1,9 +1,9 @@
 import { Icons } from "@/components/icons";
 
 export const siteConfig = {
-  name: "Bedouin",
+  name: "PillHub",
   description:
-    "Embedded Insurance",
+    "Pharmaceutical AI",
   url: "https://withbedouin.com",
 };
 

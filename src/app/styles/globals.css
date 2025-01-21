@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --background: 0 0% 96%;  /* Light gray */
+  }
+
   * {
     @apply border-border;
     -webkit-tap-highlight-color: transparent;
   }
+  
   body {
-    @apply no-scrollbar;
+    @apply no-scrollbar bg-[#f5f5f5];  /* Explicit light gray background */
   }
 }
 

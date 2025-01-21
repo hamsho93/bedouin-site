@@ -5,10 +5,10 @@ import { buttonVariants } from "@/components/ui/button";
 
 export const Footer = () => {
   return (
-    <footer className="w-full py-2 sm:py-4 bg-background border-t">
+    <footer className="w-full py-2 sm:py-4 bg-[#EEEEEE] border-t">
       <div className="container flex flex-col md:flex-row gap-y-4 items-center md:justify-between space-y-1 py-5 md:h-16 md:py-0">
         <div className="text-center text-sm leading-loose text-muted-foreground">
-          © All rights reserved. Bedouin 2024
+          © All rights reserved. PillHub AI 2024
         </div>
         <div className="flex gap-x-4 text-muted-foreground text-sm font-light">
           {/* <Link className="hover:underline underline-offset-4" href="/terms">
