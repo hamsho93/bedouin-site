@@ -4,23 +4,21 @@ import { type MetadataRoute } from "next";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = [
     "",
-    "/dashboard",
-    "/savings",
-    "/miscellaneous",
-    "/investments",
-    "/expense-tracker",
-    "/overview",
-    "/customize",
-    "/onboarding",
+    "/features",
     "/about",
     "/contact",
-    "/help",
-    "/terms",
+    "/solutions",
+    "/pricing",
     "/privacy",
-    "/sign-in",
+    "/terms",
+    "/blog",
+    "/case-studies",
+    "/support"
   ].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date().toISOString(),
+    changeFrequency: 'weekly',
+    priority: route === "" ? 1 : 0.8
   }));
 
   return [...routes];

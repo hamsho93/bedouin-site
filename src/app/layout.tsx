@@ -18,31 +18,29 @@ const font = Montserrat({ subsets: ["latin"], weight: "500" });
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_SITE_URL),
   title: {
-    default: `${siteConfig.name} - Pharmacutical AI`,
+    default: `${siteConfig.name} - AI-Powered Pharmacy Management`,
     template: `%s - ${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description: "PillHub AI revolutionizes pharmacy operations with intelligent automation, prescription processing, and patient care management. Streamline your pharmacy workflow with our advanced AI solutions.",
   manifest: "/manifest.json",
   themeColor: [{ media: "(prefers-color-scheme: dark)", color: "black" }],
   keywords: [
-    "Embedded",
+    "Pharmacy Management",
     "PillHub AI",
-    "Pharmacy",
-    "AI",
-    "Healthcare",
-    "Nursing",
-    "Medical",
-    "Expenses",
-    "Automation",
-    "Finance",
-    "Expense Tracker",
-    "Logistics",
-    "Delivery",
-    "Transactions",
-    "Dashboard",
-    "Transfer",
-    "Insurance",
-    "Miscellaneous",
+    "Healthcare Technology",
+    "Prescription Processing",
+    "AI Healthcare",
+    "Pharmacy Automation",
+    "Patient Care Management",
+    "Digital Pharmacy",
+    "Healthcare Innovation",
+    "Pharmacy Software",
+    "Medical Technology",
+    "Pharmacy Operations",
+    "Healthcare Automation",
+    "Prescription Management",
+    "Smart Pharmacy",
+    "Healthcare Solutions"
   ],
   authors: [
     {
@@ -53,17 +51,32 @@ export const metadata: Metadata = {
   creator: "PillHub AI",
   openGraph: {
     type: "website",
-    locale: "",
+    locale: "en_US",
     url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
+    title: "PillHub AI - Intelligent Pharmacy Management",
+    description: "Transform your pharmacy operations with AI-powered automation, smart prescription processing, and enhanced patient care management.",
     siteName: siteConfig.name,
+    images: [
+      {
+        url: `${siteConfig.url}/og-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "PillHub AI Platform Preview"
+      }
+    ]
   },
   icons: {
-    icon: "/bedouin_logo.ico", // Add this line to specify the favicon path
-    shortcut: "/bedouin_logo.ico", // Add this line for the shortcut icon
-    apple: "/apple-touch-icon.png", // Add this line for the Apple touch icon
+    icon: "/pharmacy_logo.ico", // Add this line to specify the favicon path
+    shortcut: "/pharmacy_logo.ico", // Add this line for the shortcut icon
+    apple: "/pharmacy_logo.ico", // Add this line for the Apple touch icon
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "PillHub AI - Intelligent Pharmacy Management",
+    description: "Transform your pharmacy operations with AI-powered automation and smart prescription processing.",
+    images: [`${siteConfig.url}/twitter-image.jpg`],
+    creator: "@pillhub_ai"
+  }
 };
 
 export default function RootLayout({

@@ -25,12 +25,11 @@ export const Dues = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-7xl font-bold mb-16 md:mb-32 tracking-tight"
+            className="text-4xl md:text-7xl font-bold mb-8 md:mb-16 tracking-tight"
           >
-            <span className="text-[#333333]">Bring your</span>{" "}
-            <span className="text-[#289c8e]">tools</span>{" "}
-            <span className="text-[#333333]">add</span>{" "}
-            <span className="text-[#289c8e]">AI</span>
+            <span className="text-[#333333]">A</span>{" "}
+            <span className="text-[#289c8e]">Seamless</span>{" "}
+            <span className="text-[#333333]">Partnership</span>{" "}
           </motion.h2>
 
           <div className="relative flex flex-col md:flex-row justify-center items-center min-h-[600px] md:min-h-[400px] mb-16 md:mb-32">
@@ -97,7 +96,7 @@ export const Dues = () => {
                 className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg p-4 md:p-6 w-32 md:w-40 h-32 md:h-40 flex flex-col items-center justify-center relative"
               >
                 <Icons.brain className="w-8 md:w-12 h-8 md:h-12 text-[#289c8e] mb-2 md:mb-4" />
-                <span className="text-sm md:text-base text-[#289c8e] font-medium text-center">AI Insights</span>
+                <span className="text-sm md:text-base text-[#289c8e] font-medium text-center">AI</span>
                 <motion.div
                   initial={{ scaleY: 0 }}
                   whileInView={{ scaleY: 1 }}

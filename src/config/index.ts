@@ -1,10 +1,15 @@
 import { Icons } from "@/components/icons";
 
 export const siteConfig = {
-  name: "PillHub",
-  description:
-    "Pharmaceutical AI",
-  url: "https://withbedouin.com",
+  name: "PillHub AI",
+  description: "AI-powered pharmacy management platform revolutionizing healthcare operations with intelligent automation and enhanced patient care.",
+  url: "https://pillhub.ai",
+  ogImage: "https://pillhub.ai/og-image.jpg",
+  links: {
+    twitter: "https://twitter.com/pillhub_ai",
+    github: "https://github.com/pillhub-ai",
+    linkedin: "https://linkedin.com/company/pillhub-ai"
+  }
 };
 
 export const currencies = [

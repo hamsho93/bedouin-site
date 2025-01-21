@@ -40,7 +40,7 @@ export default function Home() {
       </section>
       <div className="flex flex-col items-center justify-center py-12 gap-y-4 mt-20">
         <h3 className="text-4xl text-center font-extrabold tracking-tighter text-[#333333] [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
-          Power your pharmacy with PillHub, the next generation of Pharmacutical AI.
+          Power your pharmacy with PillHub, the next generation of pharmacutical AI.
         </h3>
         <Balancer className="text-[#333333] text-center text-lg [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
           Optimize your logistics, administration, and patient care with PillHub&apos;s platform. 
