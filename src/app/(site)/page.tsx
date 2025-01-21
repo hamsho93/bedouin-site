@@ -43,7 +43,7 @@ export default function Home() {
           Power your pharmacy with PillHub, the next generation of Pharmacutical AI.
         </h3>
         <Balancer className="text-[#333333] text-center text-lg [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
-          Optimize your logistics, administration, and patient care with PillHub's platform. 
+          Optimize your logistics, administration, and patient care with PillHub&apos;s platform. 
         </Balancer>
       </div>
       {/* <ExpenseTracker /> */}
