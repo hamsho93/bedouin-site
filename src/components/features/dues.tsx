@@ -19,36 +19,36 @@ export const Dues = () => {
   return (
     <>
       {/* Integration Diagram Section */}
-      <section className="flex flex-col items-center py-24 bg-[#f8f9fa] rounded-[64px]">
+      <section className="flex flex-col items-center py-12 md:py-24 bg-[#f8f9fa] rounded-[32px] md:rounded-[64px]">
         <div className="max-w-6xl mx-auto text-center px-4">
           <motion.h2 
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="text-7xl font-bold mb-32 tracking-tight"
+            className="text-4xl md:text-7xl font-bold mb-16 md:mb-32 tracking-tight"
           >
             <span className="text-[#333333]">Bring your</span>{" "}
             <span className="text-[#289c8e]">tools</span>{" "}
-            <span className="text-[#333333]">add a</span>{" "}
+            <span className="text-[#333333]">add</span>{" "}
             <span className="text-[#289c8e]">AI</span>
           </motion.h2>
 
-          <div className="relative flex justify-center items-center min-h-[400px] mb-32">
+          <div className="relative flex flex-col md:flex-row justify-center items-center min-h-[600px] md:min-h-[400px] mb-16 md:mb-32">
             {/* Left Side - Pharmacy */}
-            <div className="absolute -left-4 lg:left-20 top-1/2 -translate-y-1/2">
+            <div className="md:absolute relative mb-8 md:mb-0 md:-left-4 lg:left-20 md:top-1/2 md:-translate-y-1/2">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-[32px] shadow-lg p-6 w-40 h-40 flex flex-col items-center justify-center relative group"
+                className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg p-4 md:p-6 w-32 md:w-40 h-32 md:h-40 flex flex-col items-center justify-center relative group"
               >
-                <Icons.store className="w-12 h-12 text-[#289c8e] mb-4" />
-                <span className="text-base text-[#289c8e] font-medium">{leftSide.description}</span>
+                <Icons.store className="w-8 md:w-12 h-8 md:h-12 text-[#289c8e] mb-2 md:mb-4" />
+                <span className="text-sm md:text-base text-[#289c8e] font-medium text-center">{leftSide.description}</span>
                 <motion.div
                   initial={{ scaleX: 0 }}
                   whileInView={{ scaleX: 1 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
-                  className="absolute left-full top-1/2 w-[100px] h-[2px] origin-left bg-gradient-to-r from-[#289c8e] to-transparent"
+                  className="hidden md:block absolute left-full top-1/2 w-[100px] h-[2px] origin-left bg-gradient-to-r from-[#289c8e] to-transparent"
                 />
               </motion.div>
             </div>
@@ -58,51 +58,51 @@ export const Dues = () => {
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative z-10 bg-[#289c8e] rounded-[32px] shadow-xl p-8 w-40 h-40 flex items-center justify-center"
+              className="relative z-10 bg-[#289c8e] rounded-[24px] md:rounded-[32px] shadow-xl p-6 md:p-8 w-32 md:w-40 h-32 md:h-40 flex items-center justify-center mb-8 md:mb-0"
             >
               <Image
                 src="/pharmacy_875x875.png"
                 alt="PillHub"
-                width={96}
-                height={96}
-                className="object-contain"
+                width={72}
+                height={72}
+                className="object-contain md:w-24 md:h-24"
               />
             </motion.div>
 
             {/* Right Side - Patient */}
-            <div className="absolute -right-4 lg:right-20 top-1/2 -translate-y-1/2">
+            <div className="md:absolute relative mb-8 md:mb-0 md:-right-4 lg:right-20 md:top-1/2 md:-translate-y-1/2">
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-[32px] shadow-lg p-6 w-40 h-40 flex flex-col items-center justify-center relative group"
+                className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg p-4 md:p-6 w-32 md:w-40 h-32 md:h-40 flex flex-col items-center justify-center relative group"
               >
-                <Icons.user className="w-12 h-12 text-[#289c8e] mb-4" />
-                <span className="text-base text-[#289c8e] font-medium">{rightSide.description}</span>
+                <Icons.user className="w-8 md:w-12 h-8 md:h-12 text-[#289c8e] mb-2 md:mb-4" />
+                <span className="text-sm md:text-base text-[#289c8e] font-medium text-center">{rightSide.description}</span>
                 <motion.div
                   initial={{ scaleX: 0 }}
                   whileInView={{ scaleX: 1 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
-                  className="absolute right-full top-1/2 w-[100px] h-[2px] origin-right bg-gradient-to-l from-[#289c8e] to-transparent"
+                  className="hidden md:block absolute right-full top-1/2 w-[100px] h-[2px] origin-right bg-gradient-to-l from-[#289c8e] to-transparent"
                 />
               </motion.div>
             </div>
 
             {/* AI Section */}
-            <div className="absolute left-1/2 -translate-x-1/2 top-[calc(50%+160px)]">
+            <div className="md:absolute relative md:left-1/2 md:-translate-x-1/2 md:top-[calc(50%+160px)]">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-white rounded-[32px] shadow-lg p-6 w-40 h-40 flex flex-col items-center justify-center relative"
+                className="bg-white rounded-[24px] md:rounded-[32px] shadow-lg p-4 md:p-6 w-32 md:w-40 h-32 md:h-40 flex flex-col items-center justify-center relative"
               >
-                <Icons.brain className="w-12 h-12 text-[#289c8e] mb-4" />
-                <span className="text-base text-[#289c8e] font-medium">AI Insights</span>
+                <Icons.brain className="w-8 md:w-12 h-8 md:h-12 text-[#289c8e] mb-2 md:mb-4" />
+                <span className="text-sm md:text-base text-[#289c8e] font-medium text-center">AI Insights</span>
                 <motion.div
                   initial={{ scaleY: 0 }}
                   whileInView={{ scaleY: 1 }}
                   transition={{ duration: 0.8, delay: 0.2 }}
-                  className="absolute -top-20 left-1/2 -translate-x-1/2 w-[2px] h-20 origin-bottom bg-gradient-to-t from-[#289c8e] to-transparent"
+                  className="hidden md:block absolute -top-20 left-1/2 -translate-x-1/2 w-[2px] h-20 origin-bottom bg-gradient-to-t from-[#289c8e] to-transparent"
                 />
               </motion.div>
             </div>
