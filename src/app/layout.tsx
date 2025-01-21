@@ -12,6 +12,7 @@ import { Providers } from "@/components/providers/providers";
 import { ThemeWrapper } from "@/components/themes/theme-wrapper";
 import { ThemeSwitcher } from "@/components/themes/theme-swticher";
 import { MountClientWrapper } from "@/components/providers/mount-client-wrapper";
+import DefaultTags from './default-tags'
 
 const font = Montserrat({ subsets: ["latin"], weight: "500" });
 
@@ -52,16 +53,19 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: siteConfig.url,
+    url: env.NEXT_PUBLIC_SITE_URL,
     title: "PillHub AI - Intelligent Pharmacy Management",
     description: "Transform your pharmacy operations with AI-powered automation, smart prescription processing, and enhanced patient care management.",
-    siteName: siteConfig.name,
-    images: [{
-      url: "/pharmacy_875x875.png",
-      width: 875,
-      height: 875,
-      alt: "PillHub AI Logo"
-    }]
+    siteName: "PillHub AI",
+    images: [
+      {
+        url: `${env.NEXT_PUBLIC_SITE_URL}/pharmacy_875x875.png`,
+        width: 875,
+        height: 875,
+        alt: "PillHub AI Logo",
+        type: "image/png",
+      }
+    ],
   },
   icons: {
     icon: "/pharmacy_logo.ico", // Add this line to specify the favicon path
@@ -72,7 +76,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PillHub AI - Intelligent Pharmacy Management",
     description: "Transform your pharmacy operations with AI-powered automation and smart prescription processing.",
-    images: ["/pharmacy_875x875.png"],
+    images: [`${env.NEXT_PUBLIC_SITE_URL}/pharmacy_875x875.png`],
     creator: "@pillhub_ai"
   },
   other: {
@@ -87,9 +91,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="google" content="notranslate" />
+        <DefaultTags />
       </head>
       <body className={cn("bg-background antialiased", font.className)}>
         <Providers>
