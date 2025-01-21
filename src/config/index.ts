@@ -4,7 +4,7 @@ export const siteConfig = {
   name: "PillHub AI",
   description: "AI-powered pharmacy management platform revolutionizing healthcare operations with intelligent automation and enhanced patient care.",
   url: "https://pillhub.ai",
-  ogImage: "https://pillhub.ai/og-image.jpg",
+  ogImage: "/pharmacy_875x875.png",
   links: {
     twitter: "https://twitter.com/pillhub_ai",
     github: "https://github.com/pillhub-ai",

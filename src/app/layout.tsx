@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: `${siteConfig.url}/og-image.jpg`,
-        width: 1200,
-        height: 630,
-        alt: "PillHub AI Platform Preview"
+        url: "/pharmacy_875x875.png",
+        width: 875,
+        height: 875,
+        alt: "PillHub AI Logo"
       }
     ]
   },
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PillHub AI - Intelligent Pharmacy Management",
     description: "Transform your pharmacy operations with AI-powered automation and smart prescription processing.",
-    images: [`${siteConfig.url}/twitter-image.jpg`],
+    images: ["/pharmacy_875x875.png"],
     creator: "@pillhub_ai"
   }
 };
