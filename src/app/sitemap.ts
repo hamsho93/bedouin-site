@@ -1,5 +1,5 @@
+import { MetadataRoute } from 'next';
 import { siteConfig } from "@/config";
-import { type MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = [
@@ -17,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ].map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date().toISOString(),
-    changeFrequency: 'weekly',
+    changeFrequency: "weekly" as const,
     priority: route === "" ? 1 : 0.8
   }));
 
