@@ -71,6 +71,10 @@ export const metadata: Metadata = {
     icon: "/pharmacy_logo.ico", // Add this line to specify the favicon path
     shortcut: "/pharmacy_logo.ico", // Add this line for the shortcut icon
     apple: "/pharmacy_logo.ico", // Add this line for the Apple touch icon
+    other: {
+      rel: "apple-touch-icon",
+      url: "/pharmacy_875x875.png",
+    },
   },
   twitter: {
     card: "summary_large_image",
@@ -94,6 +98,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <DefaultTags />
+        <link rel="icon" href="/pharmacy_875x875.png" />
+        <link rel="shortcut icon" href="/pharmacy_875x875.png" />
+        <link rel="apple-touch-icon" href="/pharmacy_875x875.png" />
       </head>
       <body className={cn("bg-background antialiased", font.className)}>
         <Providers>
