@@ -29,7 +29,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 mx-auto flex w-full max-w-[64rem] flex-col items-center justify-center gap-4 pb-8 text-center pt-24 sm:pt-32 lg:pb-10">
           <Balancer className="font-bold leading-tight tracking-tight text-5xl sm:text-7xl lg:text-8xl lg:leading-[1.1] text-[#333333] [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
-            Pharmacy <span className="font-mono text-[#333333] [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]"></span>{" "}
+            Operational Agents for Pharmacies <span className="font-mono text-[#333333] [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]"></span>{" "}
             
           </Balancer>
           {/* <Button
@@ -46,7 +46,7 @@ export default function Home() {
           Power your pharmacy with PillHub, the next generation of pharmacutical AI.
         </h3>
         <Balancer className="text-[#333333] text-center text-lg [text-shadow:2px_2px_4px_rgba(0,0,0,0.3)]">
-          Optimize your logistics, administration, and patient care with PillHub&apos;s platform. 
+          Perscription, patient and performance management made easy with PillHub&apos;s platform. 
         </Balancer>
       </div>
       {/* <ExpenseTracker /> */}

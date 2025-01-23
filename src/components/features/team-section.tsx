@@ -39,7 +39,7 @@ export const TeamSection: React.FC = () => {
             Where <span className="text-[#289c8e]">Tech</span> meets <span className="text-[#289c8e]">Health</span>
           </h2>
           <p className="text-lg text-[#333333]/80 max-w-2xl mx-auto">
-            Our team combines technological innovation with healthcare expertise
+            Pharmacies are the backbone of our local community healthcare and our mission is to supercharge them!
           </p>
         </motion.div>
 
