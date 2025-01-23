@@ -38,9 +38,9 @@ export const TeamSection: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#333333]">
             Where <span className="text-[#289c8e]">Tech</span> meets <span className="text-[#289c8e]">Health</span>
           </h2>
-          <p className="text-lg text-[#333333]/80 max-w-2xl mx-auto">
-            Pharmacies are the backbone of our local community healthcare and our mission is to supercharge them!
-          </p>
+          {/* <p className="text-lg text-[#333333]/80 max-w-2xl mx-auto">
+            
+          </p> */}
         </motion.div>
 
         {/* Main Content */}

@@ -114,11 +114,11 @@ export const Dues = () => {
         <div className="max-w-6xl mx-auto text-center px-4">
           {/* Main Headings */}
           <h2 className="text-5xl font-bold mb-4 text-[#333333]">
-            Ditch traditional pharmacy operations.
+          Pharmacies are the backbone of our local community healthcare and our mission is to supercharge them!
           </h2>
-          <h2 className="text-5xl font-bold mb-8 text-[#289c8e]">
+          {/* <h2 className="text-5xl font-bold mb-8 text-[#289c8e]">
             Redefine the future of healthcare.
-          </h2>
+          </h2> */}
           
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
@@ -128,10 +128,10 @@ export const Dues = () => {
                 <Icons.pill2 className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
-                Automated Prescription Processing
+                Revenue Cycle Management
               </h3>
               <p className="text-[#333333]">
-                Streamline prescription fulfillment with AI-powered automation, reducing wait times and improving accuracy.
+              Utilize PillHub to consolidate disparate data feeds and identify real-time financial opportunities that might otherwise be missed. Benefit from a centralized platform that includes historical data for lookback analytics and auditing purposes with AI-recommendations
               </p>
             </div>
 
@@ -154,10 +154,10 @@ export const Dues = () => {
                 <Icons.car className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
-                24/7 Fulfillment
+                Logistical Excellence
               </h3>
               <p className="text-[#333333]">
-                Operate with 24/7 capabilities without being in store 24/7. Provide customers flexible delivery options.
+              PillHub&apos;s intelligent scheduling and logistics platform ensures timely deliveries and pickups, eliminating abandoned medications and maximizing pharmacy efficiency.
               </p>
             </div>
 
@@ -167,10 +167,10 @@ export const Dues = () => {
                 <Icons.shield className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
-                Compliance & Safety
+                Patient Care Profiles
               </h3>
               <p className="text-[#333333]">
-                Built-in compliance checks and drug interaction monitoring for enhanced patient safety.
+                Maintain comprehensive patient profiles with medication history, allergies, and personalized care recommendations.
               </p>
             </div>
           </div>
