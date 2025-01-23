@@ -167,10 +167,10 @@ export const Dues = () => {
                 <Icons.shield className="w-8 h-8" />
               </div>
               <h3 className="text-2xl font-semibold mb-4 text-[#333333]">
-                Patient Care Profiles
+                Compliance & Safety
               </h3>
               <p className="text-[#333333]">
-                Maintain comprehensive patient profiles with medication history, allergies, and personalized care recommendations.
+                Built-in compliance checks and drug interaction monitoring for enhanced patient safety.
               </p>
             </div>
           </div>
