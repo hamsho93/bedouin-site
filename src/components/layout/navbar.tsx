@@ -26,13 +26,22 @@ export const Navbar = async () => {
             name={session.user.name ?? ""}
           />
         ) : (
-          <Button
-            className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-[#117c6f] text-white hover:bg-[#333333]")}
-            as={Link}
-            href="https://share.hsforms.com/1Ma6zKIU5SXmeaIi31qynIgq5drz"
-          >
-            Contact Us
-          </Button>
+          <>
+            <Button
+              className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-[#117c6f] text-white hover:bg-[#333333]")}
+              as={Link}
+              href="https://share.hsforms.com/1Ma6zKIU5SXmeaIi31qynIgq5drz"
+            >
+              Contact Us
+            </Button>
+            <Button
+              className={cn(buttonVariants({ size: "lg" }), "rounded-full bg-[#333333] text-white hover:bg-[#117c6f]")}
+              as={Link}
+              href="https://api.pillhub.ai/login"
+            >
+              Login
+            </Button>
+          </>
         )}
       </div>
     </div>
